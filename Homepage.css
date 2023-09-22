@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     font-size: 30px;
 }
 
-#i-home {
+#i-home-1 {
     position: absolute;
     top: 210px;
     left: 64px;
@@ -52,7 +52,7 @@ body {
 
 #i-settings {
     position: absolute;
-    top: 750px;
+    top: 927px;
     left: 64px;
 }
 
@@ -285,6 +285,10 @@ button {
     background-color: #cb3453;
 }
 
+select {
+    color: #cb3453;
+}
+
 .chart {
     position: absolute;
     width: 785px;
@@ -505,6 +509,12 @@ button {
     left: 51px;
 }
 
+#i-home {
+    left: 10px;
+    top: 10px; 
+    z-index: 1;
+}
+
 .frame-2 {
     display: flex;
     width: 45px;
@@ -517,14 +527,6 @@ button {
     left: 0;
     background-color: #ffdada;
     border-radius: 16px;
-}
-
-.bxs-home {
-    margin-right: -36.34px;
-    position: relative;
-    width: 28px;
-    height: 28px;
-    margin-bottom: -3px;
 }
 
 .categ-text2 {
@@ -569,5 +571,13 @@ button {
     font-size: 35px;
     margin-left: 5px;
     margin-top: 5px;
+    color: #f7476b;
+}
+
+#i-arrow-down {
+    position: fixed;
+    left: 1230px;
+    bottom: 170px;
+    font-size: 25px;
     color: #f7476b;
 }
