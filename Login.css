@@ -70,3 +70,10 @@ a {
     color:#F7476B;
     font-weight: 500;
 }
+
+.about-text {
+    color: #F7476B;
+    position: relative;
+    bottom: -60px;
+    font-size: 12px;
+}
