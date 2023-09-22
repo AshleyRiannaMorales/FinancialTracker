@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy | Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="SignUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/arrow-left?f=classic&s=solid" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f967ca80f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="top-navigation">
+            <a href=""><i class="fa-solid fa-arrow-left"></i></a>
+            <div class="text-wrapper">Sign Up</div>
+        </div>
+    </div>
+    <form action="/form/submit">
+        <! -- TF for Name -->
+        <input type="text" id="name" placeholder="Name">  
+        <p>
+        <! -- TF for Email -->
+        <input type="text" id="email" placeholder="Email">
+        <p>
+        <! -- TF for Password -->
+        <input type="password" id="password" placeholder="Password"><i class="eye-icon">&#128065;</i>
+        </p>
+        <label class="checkbox-wrapper">
+            <input type="checkbox" class="agree-checkbox">
+            <class="agree-text">By signing up, you agree to the
+                <span class="span">Terms of Service <span id="next-line">and Privacy Policy</span></p>
+        </label>
+        </form>
+        <! -- Sign Up button -->
+        <button type="button" id="signup-button">Sign Up</button>
+    </form>
+    <p id="or">Or</p>
+    <div class="google-container">
+        <button type="button" id="google-button"><img id="google-logo" src="https://i.ibb.co/PFb1gST/gogologo.png">Sign Up with Google</button>
+    </div>
+</body>
+</html>

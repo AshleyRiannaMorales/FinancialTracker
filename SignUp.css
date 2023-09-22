@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.box {
+    display: inline-block;
+    width: 1359px;
+    height: 64px;
+    padding: 16px;
+    position: relative;
+}
+
+.box .top-navigation {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.box .magicons-glyph-arrow {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    color:#f7476b;
+}
+
+a .fa-solid.fa-arrow-left {
+    color: #f7476b;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.box .text-wrapper {
+    position: absolute;
+    text-align: center;
+    width: 253px;
+    height: 49px;
+    top: 0;
+    left: 537px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    color: #f7476b;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+form {
+    padding-top: 85px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input {
+    width: 20%;
+    padding: 16px;
+    border: 1px solid #F7476B;
+    border-radius: 9px;
+    resize: none;
+}
+
+::placeholder {
+    font-family: 'Lexend', sans-serif;
+    color: #F7476B;
+}
+
+#password {
+    margin-right: -14px;
+}
+
+.eye-icon {
+    position: relative;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #F7476B;
+    cursor: pointer;
+}
+
+.checkbox-wrapper {
+    align-items: center;
+    padding-bottom: 30px;
+    display: inline-block;
+    width: 350px;
+    font-size: 12px;
+    position: flex;
+    position: flex;
+    flex: 1;
+    margin: 0;
+}
+
+label {
+    font-size: 13px;
+}
+
+span {
+    color: #f7476b;
+}
+
+button {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 550;
+    border: none;
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+    width: 22.5%;
+}
+
+#signup-button {
+    background-color: #F7476B;
+    color: white;
+}
+
+#or {
+    top: 0;
+    left: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: #90909f;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.google-container {
+    margin-top: 0;
+}
+
+#google-button {
+    background-color: transparent;
+    font-family: 'Lexend', sans-serif;
+    color: black;
+    border: solid 0.5px rgba(241, 241, 250, 1);
+    border-radius: 8px;
+    padding: 11px;
+    cursor: pointer;
+    width: 22.5%;
+}
+
+#google-logo{
+    position: relative;
+    width: 15px;
+    height: 14px;
+    padding-right: 10px;
+    margin-top: 3px;
+}

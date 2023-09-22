@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+}
+
+form {
+    font-family: 'Lexend', sans-serif;
+}
+
+.login {
+    padding-right: 15px;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 75px;
+    height: 332px;
+    width: 332px;
+}
+
+input {
+    width: 20%;
+    padding: 16px;
+    border: 1px solid #F7476B;
+    border-radius: 9px;
+    resize: none;
+}
+
+#email {
+    margin-bottom: 0;
+}
+
+#password {
+    margin-top: -5px;
+    margin-right: -14px;
+}
+
+::placeholder {
+    font-family: 'Lexend', sans-serif;
+    color: #F7476B;
+}
+
+.eye-icon {
+    position: relative;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #F7476B;
+    cursor: pointer;
+}
+
+button {
+    background-color: #F7476B;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 11px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 22.5%;
+}
+
+#text {
+    font-size: 12px;
+    color: #848490;
+}
+
+a {
+    color:#F7476B;
+    font-weight: 500;
+}
